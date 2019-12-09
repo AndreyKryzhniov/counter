@@ -1,0 +1,43 @@
+.wrapper {
+  width: 350px;
+  height: 300px;
+  border: 2px solid black;
+  border-radius: 5px;
+  background-color: gainsboro;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.entryField {
+  width: 320px;
+  height: 180px;
+  border: 2px solid black;
+  border-radius: 5px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.enterButton {
+  width: 320px;
+  height: 70px;
+  border: 2px solid black;
+  border-radius: 5px;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.red {
+
+  background-color: red;
+  opacity: 0.8;
+  border: 2px solid red;
+  color: white;
+}
